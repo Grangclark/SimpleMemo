@@ -14,6 +14,7 @@
 		6EE1CC6E2D3BE0F00017B582 /* SimpleMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE1CC6D2D3BE0F00017B582 /* SimpleMemoTests.swift */; };
 		6EE1CC782D3BE0F00017B582 /* SimpleMemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE1CC772D3BE0F00017B582 /* SimpleMemoUITests.swift */; };
 		6EE1CC7A2D3BE0F00017B582 /* SimpleMemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE1CC792D3BE0F00017B582 /* SimpleMemoUITestsLaunchTests.swift */; };
+		6EE1CC892D3BEF640017B582 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE1CC882D3BEF640017B582 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		6EE1CC732D3BE0F00017B582 /* SimpleMemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleMemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EE1CC772D3BE0F00017B582 /* SimpleMemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMemoUITests.swift; sourceTree = "<group>"; };
 		6EE1CC792D3BE0F00017B582 /* SimpleMemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6EE1CC882D3BEF640017B582 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				6EE1CC5C2D3BE0EA0017B582 /* SimpleMemoApp.swift */,
 				6EE1CC5E2D3BE0EA0017B582 /* ContentView.swift */,
+				6EE1CC882D3BEF640017B582 /* DetailView.swift */,
 				6EE1CC602D3BE0EF0017B582 /* Assets.xcassets */,
 				6EE1CC622D3BE0EF0017B582 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EE1CC892D3BEF640017B582 /* DetailView.swift in Sources */,
 				6EE1CC5F2D3BE0EA0017B582 /* ContentView.swift in Sources */,
 				6EE1CC5D2D3BE0EA0017B582 /* SimpleMemoApp.swift in Sources */,
 			);
